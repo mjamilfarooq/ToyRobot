@@ -1,7 +1,7 @@
 package org.example.surface;
 
-import org.example.model.Position;
+import org.example.position.IVector;
 
 public interface ISurface {
-    boolean isOutOfBound(Position position);
+    boolean isOutOfBound(IVector position);
 }
